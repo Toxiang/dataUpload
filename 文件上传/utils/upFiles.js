@@ -122,7 +122,7 @@ var upLoadImg = (t)=>{
 // 获取签名 url：通过T云函数，实现签名的服务端获取
 var getSignature = (callback)=>{
     wx.request({
-        url: 'https://wzx-4gwfvaxqeb53cdf0-1304286221.ap-shanghai.app.tcloudbase.com/get_signature',
+        url: 'signature派发url',
         
         success: function (res) {
         console.log("res:",res)
